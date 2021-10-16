@@ -70,9 +70,9 @@
 			this.items[2].value += this.myMoney* 0.000017
     	},
 		takeMoney() {
-      		this.items[0].value += this.myMoney
-			this.items[1].value += this.myMoney* 0.0003
-			this.items[2].value += this.myMoney* 0.000017
+      		this.items[0].value -= this.myMoney
+			this.items[1].value -= this.myMoney* 0.0003
+			this.items[2].value -= this.myMoney* 0.000017
     	},
 
 
